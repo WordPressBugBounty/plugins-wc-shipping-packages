@@ -4,7 +4,7 @@ Tags: woocommerce shipping packages, dropshipping, woocommerce multi vendor ship
 Requires at least: 5.6
 Tested up to: 6.6
 Requires PHP: 7.3
-Stable tag: 1.1.34
+Stable tag: 1.1.35
 Copyright: © 2024 FlexRC, 604-1097 View St, V8V 0G9, Canada. Voice 604 800-7879
 
 Offer separate shipping from multiple vendors by grouping products in the cart into packages, so they can be shipped with different shipping methods.
@@ -94,6 +94,8 @@ Please [Contact Us](https://1teamsoftware.com/contact-us "1TeamSoftware") and we
 == Screenshots ==
 
 == Changelog ==
+= 1.1.35 =
+* Improved compatibility with PHP 8.
 = 1.1.34 =
 * Updated compatibility
 = 1.1.33 =

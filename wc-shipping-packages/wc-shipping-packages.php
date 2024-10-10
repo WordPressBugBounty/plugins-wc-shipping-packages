@@ -3,7 +3,7 @@
  * Plugin Name: Shipping Packages for WooCommerce
  * Plugin URI: https://wordpress.org/plugins/wc-shipping-packages
  * Description: Groups products in the cart into packages, so they can be shipped with different shipping methods.
- * Version: 1.1.34
+ * Version: 1.1.35
  * Tested up to: 6.6
  * Author: OneTeamSoftware
  * Author URI: http://oneteamsoftware.com/

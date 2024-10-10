@@ -7,6 +7,7 @@ require_once(__DIR__ . '/Shipping/AbstractShippingMethod.php');
 class ShippingMethod extends \OneTeamSoftware\WooCommerce\Shipping\AbstractShippingMethod
 {
 	private $allPostMetaKeys;
+	private $shippingRestrictions;
 
     public function __construct()
     {
