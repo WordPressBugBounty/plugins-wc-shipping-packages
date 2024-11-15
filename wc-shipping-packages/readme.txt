@@ -2,9 +2,9 @@
 Contributors: OneTeamSoftware
 Tags: woocommerce shipping packages, dropshipping, woocommerce multi vendor shipping, woocommerce, shipping, packages, ebay, amazon, warehouses, marketplace, multiple warehouses, shipping method, multiple shipping methods, multiple packages, shipping packages, package orders, ship from different locations, shipping locations, drop shipping
 Requires at least: 5.6
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 7.3
-Stable tag: 1.1.35
+Stable tag: 1.1.36
 Copyright: © 2024 FlexRC, 604-1097 View St, V8V 0G9, Canada. Voice 604 800-7879
 
 Offer separate shipping from multiple vendors by grouping products in the cart into packages, so they can be shipped with different shipping methods.
@@ -94,6 +94,8 @@ Please [Contact Us](https://1teamsoftware.com/contact-us "1TeamSoftware") and we
 == Screenshots ==
 
 == Changelog ==
+- 1.1.36 =
+* Updated compatibility
 = 1.1.35 =
 * Improved compatibility with PHP 8.
 = 1.1.34 =
