@@ -4,7 +4,7 @@ Tags: woocommerce shipping packages, dropshipping, woocommerce multi vendor ship
 Requires at least: 5.6
 Tested up to: 6.8
 Requires PHP: 7.3
-Stable tag: 1.1.37
+Stable tag: 1.1.30
 Copyright: © 2025 FlexRC, 604-1097 View St, V8V 0G9, Canada. Voice 604 800-7879
 
 Offer separate shipping from multiple vendors by grouping products in the cart into packages, so they can be shipped with different shipping methods.
@@ -17,7 +17,7 @@ If your WooCommerce store (similar to eBay and Amazon) is selling products that 
 Each package has its own shipping method selection in the cart and checkout pages. 
 You can also limit which shipping methods can be used for packages with different shipping class.
 
-You will benefit from it when using Multivendor Marketplace plugins like WCFM, WCMP, Dokan, WC Product Vendors and it will allow you to better control ability to charge separate shipping per vendor.
+You will benefit from it when using Multivendor Marketplace plugins like WCFM, MultiVendor X, Dokan, WC Product Vendors and it will allow you to better control ability to charge separate shipping per vendor.
 
 == How does it work? ==
 [youtube https://youtu.be/NbXmFFD9iAM]
@@ -26,7 +26,7 @@ You will benefit from it when using Multivendor Marketplace plugins like WCFM, W
 [youtube https://www.youtube.com/watch?v=PphVEmy-_9o]
 
 == Features of WooCommerce Shipping Packages ==
-* Supports WCFM, WCMP, Dokan, WC Product Vendors
+* Supports WCFM, MultiVendor X, Dokan, WC Product Vendors
 * Group products into packages.
 * Group by Shipping Class, Product ID, Product Type, Attributes, Categories, First Category, Tags, First Tag, Post Author (Vendor / Product Owner).
 * Group by POST META (NEW FEATURE)
@@ -39,7 +39,7 @@ You will benefit from it when using Multivendor Marketplace plugins like WCFM, W
 * Supports WooCommerce Product Bundle.
 * Compatible with Dokan. Just use Post Author in the Group By field to simulate similar behavior.
 * It can be extended to support other complex product types.
-* It is compatible with Dokan, WC Marketplace, WooCommerce Product Vendors plugins and can be used to improve their cart splitting
+* It is compatible with WCFM, Multivendor X, Dokan, WC Marketplace, WooCommerce Product Vendors plugins and can be used to improve their cart splitting
 
 = Rate us & Review =
 If you love our plugins, please give us a full five-star rating, so that we know that our work is valued and appreciated. 
@@ -94,6 +94,8 @@ Please [Contact Us](https://1teamsoftware.com/contact-us "1TeamSoftware") and we
 == Screenshots ==
 
 == Changelog ==
+= 1.1.38 =
+* Fixed deprecated get_wcmp_vendor function call, updated to use get_mvx_vendor with backward compatibility for MVX Multi Vendor X plugin version 4.0.0+
 = 1.1.37 =
 * Updated compatibility
 = 1.1.36 =

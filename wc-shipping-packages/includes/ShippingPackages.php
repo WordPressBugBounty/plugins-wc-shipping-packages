@@ -580,8 +580,15 @@ class ShippingPackages
 			if (!empty($seller['store_name'])) {
 				$sellerName = $seller['store_name'];
 			}
+		} else if (function_exists('get_mvx_vendor')) {
+			$this->debug('MVX is detected');
+
+			$seller = get_mvx_vendor($sellerId);
+			if (is_object($seller) && !empty($seller->page_title)) {
+				$sellerName = $seller->page_title;
+			}
 		} else if (function_exists('get_wcmp_vendor')) {
-			$this->debug('WCMp is detected');
+			$this->debug('WCMp (legacy) is detected');
 
 			$seller = get_wcmp_vendor($sellerId);
 			if (is_object($seller) && !empty($seller->page_title)) {
