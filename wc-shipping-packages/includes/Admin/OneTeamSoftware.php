@@ -149,6 +149,7 @@ class OneTeamSoftware
 		$plugins = $this->getFreePlugins();
 		//$plugins += $this->getPaidPlugins();
 
+		$cacheKey = $this->mainMenuId . '_plugins';
 		set_transient($cacheKey, $plugins, 24 * HOUR_IN_SECONDS);
 
 		return $plugins;
